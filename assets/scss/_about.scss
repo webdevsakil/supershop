@@ -1,0 +1,30 @@
+.about-area {
+    .about-left-area {
+        position: relative;
+
+        .about-video {
+            position: absolute;
+            right: 0px;
+            bottom: -80px;
+
+            .video-frame {
+                width: 324px;
+                height: 195px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .about-area {
+        .about-left-area {
+            position: relative;
+
+            .about-video {
+                position: relative;
+                right: 0px;
+                bottom: 0px;         
+            }
+        }
+    }
+}

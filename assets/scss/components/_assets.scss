@@ -1,0 +1,15 @@
+@mixin line {
+    width: 100%;
+    height: 1px;
+    backgorund: rgba(255, 255, 255, 0.336);
+}
+@mixin overlay{
+    position: relative;
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+}

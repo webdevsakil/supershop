@@ -1,0 +1,84 @@
+.populer-model {
+    .section-top {
+        .section-heading {
+            h2 {
+                color: #fff;
+            }
+        }
+
+        .section-subheading {
+            padding-right: 150px;
+
+            p {
+                color: rgba(255, 255, 255, 0.554);
+            }
+        }
+    }
+
+    .card-desc {
+        p {
+            color: #fff;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 400;
+        }
+    }
+
+    .card-list {
+        .price {
+            span {
+                display: inline-block;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 32px;
+                color: #fff;
+            }
+        }
+
+        a {
+            color: #fff;
+            font-size: 16px;
+            text-decoration: underline;
+        }
+    }
+
+    img {
+        height: 425px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .populer-model .section-top .section-subheading {
+        padding-right: 0px;
+    }
+
+    .populer-model img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+
+    .populer-model img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .populer-model img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    h4 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .populer-model img {
+        height: 312px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,84 @@
+.cta-area {
+    h2 {
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 66px;
+        color: #090909;
+        padding: 0px 250px;
+    }
+}
+
+.form-area {
+    max-width: 507px;
+    margin: 0px auto;
+    position: relative;
+
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.input-full {
+    @include input;
+    background: #fff;
+    max-width: 360px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    &::placeholder {
+        text-transform: capitalize;
+        color: #888888;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+
+@media screen and (max-width:575px) {
+    .cta-area h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .cta-area h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding: 0px 0px;
+    }
+
+    .cta-area .theme-btn-gradiant {
+        padding: 8px 35px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .cta-area h2 {
+        padding: 0px 85px;
+    }
+
+    .cta-area .theme-btn-gradiant {
+        padding: 8px 35px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .cta-area h2 {
+        padding: 0px 150px;
+    }
+
+    .cta-area .theme-btn-gradiant {
+        padding: 8px 35px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .cta-area .theme-btn-gradiant {
+
+        padding: 9px 35px;
+    }
+}

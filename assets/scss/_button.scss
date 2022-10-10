@@ -1,0 +1,35 @@
+.theme-btn {
+    @include button;
+    font-size: 18px;
+    color: #091313;
+    padding: 13px 24px;
+}
+
+.theme-btn-gradiant {
+    color: #fff;
+    background: linear-gradient(to right, #d94344, #3fb7c2);
+    border: none;
+    background-repeat: no-repeat;
+    padding: 14px 35px;
+}
+
+.theme-btn-border{
+border-color: #000000;
+}
+
+.theme-btn-dark {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    background: #000000;
+    padding: 13px 25px;
+    color: #fff;
+    border-radius: 2px;
+    margin-left: 10px;
+    border: 1px solid #000000;
+
+    &:hover {
+        color: #000000;
+        background: transparent;
+    }
+}

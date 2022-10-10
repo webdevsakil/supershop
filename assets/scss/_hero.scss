@@ -1,0 +1,78 @@
+.hero-area {
+    position: relative;
+
+    .gradiant-shape {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card-shape {
+        position: absolute;
+        left: 52%;
+        transform: translateX(-50%);
+        bottom: 0;
+        margin-bottom: 135px;
+
+        .card-text {
+            text-align: center;
+            padding: 18px 50px;
+
+            h3 {
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26px;
+                color: #091313;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 50px;
+                line-height: 50px;
+                font-weight: 600;
+                color: #091313;
+            }
+        }
+    }
+
+    .hero-top {
+        span {
+            display: inline-block;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: 12px;
+        }
+
+    }
+
+    .hero-desc {
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            color: #fff;
+        }
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .hero-area .hero-top span {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 8px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .hero-area .card-shape {
+        position: absolute;
+        left: 70%;
+  
+        bottom: 23%;
+  
+    }
+}
